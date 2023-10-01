@@ -7,7 +7,7 @@ class Student {
     Scanner sc= new Scanner(System.in);
     void info(){
     System.out.println("Enter student's name: ");
-     name = sc.nextLine();
+     name = sc.next();
 
     System.out.println("Enter student's age: ");
      age = sc.nextInt();

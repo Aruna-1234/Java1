@@ -8,12 +8,12 @@ import java.util.Scanner;
             arr[i]=sc.nextInt();
         } 
         int value=0;
-        for(int i=0;i<arr.length;i++) {
-           if(arr[i]%2==0) {              //if(arr[i]%2!=0) {
+        for(int i=0;i<arr.length/2;i++) {
+          // if(arr[i]%2==0) {              //if(arr[i]%2!=0) {
                                          
             System.out.print(arr[i] + " ");
-            value++;
-        }
+        //     value++;
+        // }
     }
     System.out.println();
     System.out.println(value);
